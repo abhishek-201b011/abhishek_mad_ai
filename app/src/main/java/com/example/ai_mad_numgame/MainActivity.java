@@ -81,11 +81,17 @@ public class MainActivity extends AppCompatActivity {
 
         int correctAnswer=-100;
         if(operator.equals("+"))
+        {
             correctAnswer=operand1+operand2;
+        }
         else if(operator.equals("-"))
+        {
             correctAnswer=operand1-operand2;
+        }
         else if(operator.equals("*"))
+        {
             correctAnswer=operand1*operand2;
+        }
         else
             correctAnswer=operand1/operand2;
 
